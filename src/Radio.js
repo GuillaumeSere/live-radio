@@ -23,7 +23,6 @@ export default function Radio() {
         language: "english",
         tag: stationFilter,
         limit: 40,
-        url_resolved: "http://all.api.radio-browser.info/json/servers",
       })
       .then((data) => {
         return data;
