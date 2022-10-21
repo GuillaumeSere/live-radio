@@ -2,7 +2,7 @@
   "name": "live-radio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://guillaumesere.github.io/live-radio",
+  "homepage": "http://guillaumesere.github.io/live-radio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
