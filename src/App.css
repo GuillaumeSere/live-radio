@@ -253,4 +253,21 @@ audio {
 .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
   fill: #08f328 !important;
 }
+
+.footer {
+  font-size: 30px;
+}
+
+.footer p span {
+  color: #3e5f4a;
+}
+
+@media (max-width: 650px) {
+  .footer {
+    font-size: 18px;
+  }
+  .station {
+    width: 320px;
+  }
+}
 /*# sourceMappingURL=App.css.map */
