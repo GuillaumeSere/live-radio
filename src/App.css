@@ -74,10 +74,23 @@
           flex-direction: column;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #201a27;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6be3bd;
+  border-radius: 25px;
+}
+
 body {
   background: #18141e;
-  background: -webkit-gradient(linear, left top, right top, from(#281f35), to(#201a27));
-  background: linear-gradient(to right, #281f35, #201a27);
+  background: -webkit-gradient(linear, left top, left bottom, from(#150e1e), to(#201a27));
+  background: linear-gradient(to bottom, #150e1e, #201a27);
   color: #e40017;
   color: #e36bae;
   color: #fb743e;
@@ -117,20 +130,20 @@ h2 {
 
 .filters span {
   margin: 1rem;
-  border: 1px solid #e36bae;
+  border: 1px solid #6be3bd;
   border-radius: 10px;
   padding: 0.25em 0.75em;
 }
 
 .filters span:hover {
   cursor: pointer;
-  background: -webkit-gradient(linear, left top, right bottom, from(#e36bae), to(#fb743e));
-  background: linear-gradient(to bottom right, #e36bae, #fb743e);
+  background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
+  background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
 }
 
 .filters .selected {
-  background: -webkit-gradient(linear, left top, right bottom, from(#e36bae), to(#fb743e));
-  background: linear-gradient(to bottom right, #e36bae, #fb743e);
+  background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
+  background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
 }
 
 .stations {
@@ -150,7 +163,7 @@ h2 {
 .station {
   width: 400px;
   font-size: 1.4rem;
-  border: 1px solid #4c3e5f;
+  border: 1px solid #3e5f4a;
   margin: 0.25em;
   border-radius: 10px;
   padding: 1em;
@@ -170,7 +183,7 @@ h2 {
 }
 
 .station:hover {
-  border-color: #e36bae;
+  border-color: #6be3bd;
 }
 
 .stationName {
@@ -201,7 +214,7 @@ h2 {
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  border: 2px solid #4c3e5f;
+  border: 2px solid #3e5f4a;
   margin: 0 0.25em;
 }
 
@@ -210,7 +223,7 @@ audio {
 }
 
 .rhap_container.player {
-  background-color: #4c3e5f;
+  background-color: #3e5f4a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

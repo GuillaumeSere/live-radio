@@ -45,9 +45,22 @@
   flex-direction: column;
 }
 
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(32, 26, 39);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #6be3bd;
+    border-radius: 25px;
+}
+
 body {
   background: rgb(24, 20, 30);
-  background: linear-gradient(to right, rgb(40, 31, 53), rgb(32, 26, 39));
+  background: linear-gradient(to bottom, rgb(21, 14, 30), rgb(32, 26, 39));
 
   color: #e40017;
   color: #e36bae;
@@ -81,18 +94,18 @@ h2 {
 
   span {
     margin: 1rem;
-    border: 1px solid #e36bae;
+    border: 1px solid #6be3bd;
     border-radius: 10px;
     padding: 0.25em 0.75em;
 
     &:hover {
       cursor: pointer;
-      background: linear-gradient(to bottom right, #e36bae, #fb743e);
+      background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
     }
   }
 
   .selected {
-    background: linear-gradient(to bottom right, #e36bae, #fb743e);
+    background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
   }
 }
 
@@ -106,7 +119,7 @@ h2 {
 .station {
     width: 400px;
   font-size: 1.4rem;
-  border: 1px solid rgb(76, 62, 95);
+  border: 1px solid rgb(62, 95, 74);
   margin: 0.25em;
   border-radius: 10px;
   padding: 1em;
@@ -116,7 +129,7 @@ h2 {
   justify-content: center;
 
   &:hover {
-    border-color: #e36bae;
+    border-color: #6be3bd;
   }
 }
 
@@ -139,7 +152,7 @@ h2 {
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  border: 2px solid rgb(76, 62, 95);
+  border: 2px solid rgb(62, 95, 74);
   margin: 0 0.25em;
 }
 
@@ -148,7 +161,7 @@ audio {
 }
 
 .rhap_container.player {
-  background-color: rgb(76, 62, 95);
+  background-color: rgb(62, 95, 74);
   display: flex;
   justify-items: center;
   padding: 0.25em 0.75em;
