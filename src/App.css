@@ -100,7 +100,7 @@ body {
 }
 
 h1 {
-  margin: 1em 0 0 0;
+  margin: 1em 1rem 0;
   font-size: 3rem;
 }
 
@@ -134,10 +134,12 @@ h2 {
   border: 1px solid #6be3bd;
   border-radius: 10px;
   padding: 0.25em 0.75em;
+  font-weight: 800;
 }
 
 .filters span:hover {
   cursor: pointer;
+  color: #282c34;
   background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
   background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
 }
@@ -145,6 +147,7 @@ h2 {
 .filters .selected {
   background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
   background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
+  color: #282c34;
 }
 
 .stations {
