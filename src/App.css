@@ -83,7 +83,8 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6be3bd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6bafe3), to(#3efbb9));
+  background: linear-gradient(#6bafe3, #3efbb9);
   border-radius: 25px;
 }
 
@@ -247,6 +248,6 @@ audio {
 }
 
 .rhap_controls-section .rhap_main-controls button[aria-label="Pause"] svg path {
-  fill: #e36bae !important;
+  fill: #08f328 !important;
 }
 /*# sourceMappingURL=App.css.map */
