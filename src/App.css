@@ -83,9 +83,9 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6bafe3), to(#3efbb9));
-  background: linear-gradient(#6bafe3, #3efbb9);
-  border-radius: 25px;
+    background: #28342a;
+    border: 1px solid #6be3bd;
+    border-radius: 25px;
 }
 
 body {
@@ -139,15 +139,13 @@ h2 {
 
 .filters span:hover {
   cursor: pointer;
-  color: #282c34;
-  background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
-  background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
+  background: #28342a;
+  color: white;
 }
 
 .filters .selected {
-  background: -webkit-gradient(linear, left top, right bottom, from(#6be3bd), to(#3e61fb));
-  background: linear-gradient(to bottom right, #6be3bd, #3e61fb);
-  color: #282c34;
+    background: #28342a;
+    color: white;
 }
 
 .stations {
@@ -188,6 +186,7 @@ h2 {
 
 .station:hover {
   border-color: #6be3bd;
+  background: #1e352d;
 }
 
 .stationName {
