@@ -99,6 +99,13 @@ body {
   font-family: "Architects Daughter", cursive;
 }
 
+.banner{
+    width: 100%;
+    margin: 0;
+    background: #1e352d;
+    border-bottom: 2px solid white;
+}
+
 h1 {
   margin: 1em 1rem 0;
   font-size: 3rem;
