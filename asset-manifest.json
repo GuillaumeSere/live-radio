@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/live-radio/static/css/main.47490995.css",
-    "main.js": "/live-radio/static/js/main.2c7613b3.js",
+    "main.css": "/live-radio/static/css/main.760b8e7c.css",
+    "main.js": "/live-radio/static/js/main.420a3085.js",
     "static/media/radio.jpg": "/live-radio/static/media/radio.6085ad7266251f3d7e66.jpg",
     "index.html": "/live-radio/index.html",
-    "main.47490995.css.map": "/live-radio/static/css/main.47490995.css.map",
-    "main.2c7613b3.js.map": "/live-radio/static/js/main.2c7613b3.js.map"
+    "main.760b8e7c.css.map": "/live-radio/static/css/main.760b8e7c.css.map",
+    "main.420a3085.js.map": "/live-radio/static/js/main.420a3085.js.map"
   },
   "entrypoints": [
-    "static/css/main.47490995.css",
-    "static/js/main.2c7613b3.js"
+    "static/css/main.760b8e7c.css",
+    "static/js/main.420a3085.js"
   ]
 }
