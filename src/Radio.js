@@ -3,9 +3,11 @@ import { RadioBrowserApi } from "radio-browser-api";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import defaultImage from "./radio.jpg";
+import { Player } from '@lottiefiles/react-lottie-player';
+import animation from './113171-music-green.json'
 
 export default function Radio() {
-    
+
     const [stations, setStations] = useState();
     const [stationFilter, setStationFilter] = useState("all");
 
@@ -53,6 +55,13 @@ export default function Radio() {
     return (
         <div className="radio">
             <div className="filters">
+                <Player
+                    autoplay
+                    loop
+                    src={animation}
+                    style={{ height: '100px', width: '300px' }}
+                >
+                </Player>
                 {filters.map((filter, index) => (
                     <span
                         key={index}
@@ -62,6 +71,13 @@ export default function Radio() {
                         {filter}
                     </span>
                 ))}
+                <Player
+                    autoplay
+                    loop
+                    src={animation}
+                    style={{ height: '100px', width: '300px' }}
+                >
+                </Player>
             </div>
             <div className="stations">
                 {stations &&
