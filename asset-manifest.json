@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/live-radio/static/css/main.b64e0497.css",
-    "main.js": "/live-radio/static/js/main.fc48eccc.js",
-    "static/media/light1.png": "/live-radio/static/media/light1.536a028fa1d32c05274a.png",
-    "static/media/light.png": "/live-radio/static/media/light.672e2e24045337e84f36.png",
+    "main.css": "/live-radio/static/css/main.b1a7ed4f.css",
+    "main.js": "/live-radio/static/js/main.240ea4cf.js",
     "static/media/radio.jpg": "/live-radio/static/media/radio.6085ad7266251f3d7e66.jpg",
     "index.html": "/live-radio/index.html",
-    "main.b64e0497.css.map": "/live-radio/static/css/main.b64e0497.css.map",
-    "main.fc48eccc.js.map": "/live-radio/static/js/main.fc48eccc.js.map"
+    "main.b1a7ed4f.css.map": "/live-radio/static/css/main.b1a7ed4f.css.map",
+    "main.240ea4cf.js.map": "/live-radio/static/js/main.240ea4cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64e0497.css",
-    "static/js/main.fc48eccc.js"
+    "static/css/main.b1a7ed4f.css",
+    "static/js/main.240ea4cf.js"
   ]
 }
